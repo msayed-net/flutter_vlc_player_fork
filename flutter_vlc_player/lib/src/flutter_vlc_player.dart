@@ -63,6 +63,7 @@ class _VlcPlayerState extends State<VlcPlayer> {
 
   @override
   Widget build(BuildContext context) {
+    print('VLC..VlcPlayer.build()');
     return AspectRatio(
       aspectRatio: widget.aspectRatio,
       child: Stack(
